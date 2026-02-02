@@ -217,11 +217,50 @@ body {
 <li>US, UK, Middle East & APAC Market</li>
 </ul>
 </div>
+  
+
 
 <!-- BOOK APPOINTMENT (LAST) -->
 <div class="section">
 <h2>Book Appointment</h2>
-<form action="https://formspree.io/f/mwvqnzzk" method="POST">
+<form action="mailto:balwinderahluwalia6@gmail.com"
+      method="GET"
+      enctype="text/plain">
+
+<input type="text" name="Name" placeholder="Your Name" required>
+
+<input type="tel" name="Phone" placeholder="Phone Number" required>
+
+<input type="email" name="Email" placeholder="Email" required>
+
+<select name="Day" required>
+  <option value="">Select Day</option>
+  <option>Monday</option>
+  <option>Tuesday</option>
+  <option>Wednesday</option>
+  <option>Thursday</option>
+  <option>Friday</option>
+  <option>Saturday</option>
+  <option>Sunday</option>
+</select>
+
+<input type="date" name="Date" required>
+
+<select name="Time" required>
+  <option value="">Select Time</option>
+  <option>09:00 AM</option>
+  <option>10:00 AM</option>
+  <option>11:00 AM</option>
+  <option>12:00 PM</option>
+</select>
+
+<textarea name="Message" rows="4" placeholder="Your Requirement"></textarea>
+
+<button type="submit">Confirm Appointment</button>
+
+</form>
+
+
 <input type="text" name="name" placeholder="Your Name" required>
 <input type="tel" name="phone" placeholder="Phone Number" required>
 <input type="email" name="email" placeholder="Email" required>
@@ -262,6 +301,7 @@ body {
 
 </body>
 </html>
+
 
 
 
